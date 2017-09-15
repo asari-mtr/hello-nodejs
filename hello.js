@@ -1,3 +1,4 @@
 const util = require('util');
+hello = require('./lib/hello');
 
-util.log("Hello");
+util.log(hello.hello("Taro"));
