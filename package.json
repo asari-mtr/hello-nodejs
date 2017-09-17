@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "webpack": "webpack",
+    "server": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,6 +15,7 @@
     "moment": "^2.18.1"
   },
   "devDependencies": {
-    "webpack": "^3.6.0"
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
   }
 }
